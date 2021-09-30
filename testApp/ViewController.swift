@@ -11,8 +11,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        UIApplication.shared.open(URL(string: "http://site.com")! as URL, options: [:], completionHandler: nil)
     }
-    
+
 }
 
